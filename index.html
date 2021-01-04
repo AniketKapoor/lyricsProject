@@ -1,0 +1,19 @@
+<html>
+<head>
+<script src="scripts.js"></script>
+ <title>Search Song Lyrics</title> 
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="aligment">
+<input type="text" id ="inputLyrics" name="inputLyrics" placeholder="Search Song Name Here">
+<button type="button" id="searchLyrics" onclick="javascript:buttonClick()">Search</button>
+</div>
+<div id="listingTable" class="listing"></div>
+<div class="pagination">
+<a href="javascript:prevPage()" id="btn_prev">Prev</a>
+<a href="javascript:nextPage()" id="btn_next">Next</a>
+ <span id="page"></span>
+</div>
+</body>
+</html>
